@@ -83,8 +83,6 @@ class LearnJava
   }
 }
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD:Questions.md
 ### 5.	WAP to define a student class with name, roll no., marks1, marks2 and take the data from the user and display. Also create an object reference.
 ```
 import java.util.*;
@@ -125,9 +123,3 @@ class HelloWorldd {
 ```
 
 ```
-=======
-
->>>>>>> 73c51a8ce217db1e49e393467602700a61484d4c:readme.md
-=======
-
->>>>>>> 73c51a8ce217db1e49e393467602700a61484d4c
