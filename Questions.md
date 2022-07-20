@@ -84,49 +84,43 @@ class LearnJava
   }
 }
 ```
-## incomplete
 ### 5.	WAP to define a student class with name, roll no., marks1, marks2 and take the data from the user and display. Also create an object reference.
 ```
 import java.util.*;
-import java.lang.*;
-import java.io.*;
-import java.util.Scanner;
 
-class Student
-{
-    String name;
-    int roll_no;
-    int marks1;
-    int marks2;
-    public static void getData()
-	{
-	   Scanner sc=new Scanner(System.in); 
-	   name= sc.nextLine(); 
-	   roll_no=sc.intNext();
-	   marks1=sc.intNext();
-	   marks2=sc.intNext();
-	   
-	}
-	public static void putData(){
-	    System.out.println(name);
-	    System.out.println(roll_no);
-	    System.out.println(marks1);
-	    System.out.println(marks2);
-	}
+class Student {
+    private static String name;
+    private static int roll_no;
+    private static int marks1;
+    private static int marks2;
+
+    public static void getData() {
+        Scanner sc = new Scanner(System.in);
+        name = sc.nextLine();
+        roll_no = sc.nextInt();
+        marks1 = sc.nextInt();
+        marks2 = sc.nextInt();
+        sc.close();
+    }
+
+    public static void putData() {
+        System.out.println(name);
+        System.out.println(roll_no);
+        System.out.println(marks1);
+        System.out.println(marks2);
+    }
 }
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	   Student a;
-	   a.getData();
-	   a.putData();
-	   
-	}
+class HelloWorldd {
+    public static void main(String[] args) {
+        Student a = new Student();
+        a.getData();
+        a.putData();
+    }
 }
+```
 
-
-
+### 6.	WAP to display the concept of method overloading.
+```
 
 ```
