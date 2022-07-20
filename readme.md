@@ -6,7 +6,6 @@ class LearnJava
 {
 	public static void main (String[] args) 
 	{
-		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		int a= sc.nextInt();
 		int b=sc.nextInt();
@@ -84,6 +83,7 @@ class LearnJava
   }
 }
 ```
+<<<<<<< HEAD:Questions.md
 ### 5.	WAP to define a student class with name, roll no., marks1, marks2 and take the data from the user and display. Also create an object reference.
 ```
 import java.util.*;
@@ -124,3 +124,6 @@ class HelloWorldd {
 ```
 
 ```
+=======
+
+>>>>>>> 73c51a8ce217db1e49e393467602700a61484d4c:readme.md
