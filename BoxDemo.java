@@ -15,7 +15,7 @@ class BoxDemo{
         mybox.height=20;
         mybox.depth=30;
         vol=mybox.width* mybox.height * mybox.depth;
-        System.out.println(vol);
+        System.out.println(vol);w
         Box mybox2=new Box();
     }
 };
